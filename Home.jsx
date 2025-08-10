@@ -1,8 +1,12 @@
-export default function Home() {
+const Home = () => {
   return (
-    <div>
-      <h1>Welcome to Smart Job Portal</h1>
-      <p>Find your dream job here!</p>
-    </div>
+    <>
+      <h1>Hello Home Page</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+        impedit.
+      </p>
+    </>
   );
-}
+};
+export default Home;
