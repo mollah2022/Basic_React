@@ -1,14 +1,8 @@
-export default function Footer() {
+const Footer = () => {
   return (
-    <footer
-      style={{
-        background: "#eee",
-        padding: "10px",
-        marginTop: "20px",
-        alignItems: "center",
-      }}
-    >
-      <p style={{ alignItems: "center" }}>© 2025 Smart Job Portal</p>
-    </footer>
+    <>
+      <h1>&copy; 2025 Sajib Ahmed. All rights reserved.</h1>
+    </>
   );
-}
+};
+export default Footer;
