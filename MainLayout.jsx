@@ -1,12 +1,24 @@
-import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
-export default function MainLayout({ children }) {
+const MainLayout = ({ children }) => {
   return (
-    <div>
+    <>
       <Navbar />
-      <main style={{ padding: "20px" }}>{children}</main>
+      <main
+        style={{
+          border: "2px solid red",
+          padding: "10px",
+          background: "pink",
+          color: "green",
+          borderRadius: "10px",
+        }}
+      >
+        {children}
+      </main>
       <Footer />
-    </div>
+    </>
   );
-}
+};
+
+export default MainLayout;
